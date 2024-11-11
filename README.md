@@ -1,6 +1,6 @@
 # Contact Management System
 
-This application uses a .NET Core API for the backend and an Angular application for the frontend. The backend data is stored in a JSON file, and the application includes server-side pagination to handle large datasets efficiently.
+This application uses a .NET Core 8 API for the backend and an Angular 18 application  for the frontend. The backend data is stored in a JSON file, and the application includes server-side pagination to handle large datasets efficiently.
 
 This repository contains
 ---
@@ -17,6 +17,8 @@ This repository contains
 ---
 
 ## Repositories
+
+This application has separate repositories for the back end and front end.
 
 1. **Backend (API)**: [https://github.com/krutikshah24/CMS.API]
 2. **Frontend (UI)**: [https://github.com/krutikshah24/CMS.UI]
@@ -45,7 +47,7 @@ To set up this project, you must configure both the backend and frontend environ
      dotnet build
      ```
 
-### Angular Frontend
+### Angular Frontend 
 
 1. **Install Node.js and Angular CLI**:
    - Download and install [Node.js](https://nodejs.org/) (LTS version recommended).
@@ -59,7 +61,7 @@ To set up this project, you must configure both the backend and frontend environ
      ```
 
 2. **Navigate to the Angular Project Directory**:
-   - Move into the `angular-client` directory where the Angular code is located.
+   - Move into the `CMS.UI` directory where the Angular code is located.
 
 3. **Install Dependencies**:
    - Install the required npm packages by running:
@@ -72,7 +74,7 @@ To set up this project, you must configure both the backend and frontend environ
 
 ### Run the .NET Backend
 
-1. **Navigate to the Backend Project Directory**:
+1. **Navigate to the Backend Project Repository**:
    - Open a terminal and navigate to the backend project directory.
 
 2. **Start the API**:
@@ -84,8 +86,8 @@ To set up this project, you must configure both the backend and frontend environ
 
 ### Run the Angular Frontend
 
-1. **Navigate to the Angular Project Directory**:
-   - Open a new terminal and navigate to the `angular-client` directory.
+1. **Navigate to the Angular Project Repository**:
+   - Open a new terminal and navigate to the `CMS.UI` Repository.
 
 2. **Start the Angular Application**:
    - Run the Angular frontend with the following command:
@@ -100,7 +102,7 @@ To set up this project, you must configure both the backend and frontend environ
 
 #### Backend (.NET Core)
 
-- **Controllers**: The `UserController` serves as the main API controller. It handles HTTP requests for CRUD operations and routes them to the `UserService`.
+- **Controllers**: The `UserController` is the main API controller. It handles HTTP requests for CRUD operations and routes them to the `UserService`.
 - **Services**: The `UserService` implements the main business logic, performing CRUD operations on the user data. It communicates with a repository layer for data access.
 - **Models**: The `User` model represents the data schema for users, defining the properties and validation rules (e.g., required fields and email format).
 
