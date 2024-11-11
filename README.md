@@ -7,7 +7,7 @@ This repository contains
 
 ## Table of Contents
 
-1.1. [Repositories](#repositories)
+1. [Repositories](#repositories)
 2. [Setup Instructions](#setup-instructions)
    - [.NET Backend](#net-backend)
    - [Angular Frontend](#angular-frontend)
