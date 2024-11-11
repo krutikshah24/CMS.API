@@ -1,4 +1,4 @@
-# .Contact Management System
+# Contact Management System
 
 This application uses a .NET Core API for the backend and an Angular application for the frontend. The backend data is stored in a JSON file, and the application includes server-side pagination to handle large datasets efficiently.
 
